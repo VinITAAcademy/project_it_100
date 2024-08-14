@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Inter Regular';
+    src: url(../fonts/Inter_24pt-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+}
+
+@font-face {
+    font-family: 'Inter Medium';
+    src: url(../fonts/Inter_24pt-Medium.ttf);
+    font-weight: 500;
+    font-style: normal;
+    line-height: normal;
+}
+
+@font-face {
+    font-family: 'Inter Bold';
+    src: url(../fonts/Inter_24pt-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+    line-height: normal;
+}
+
+@font-face {
+    font-family: 'Inter ExtraBold';
+    src: url(../fonts/Inter_24pt-ExtraBold.ttf);
+    font-weight: 800;
+    font-style: normal;
+    line-height: normal;
+}
+
+:root {
+    --primary: #003c66;
+    --light: #fff;
+    --button-primary: #5c94c5
+}
+
+*::before,
+*::after {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+p {
+    margin: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
