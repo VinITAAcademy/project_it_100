@@ -33,7 +33,8 @@
 :root {
     --primary: #003c66;
     --light: #fff;
-    --button-primary: #5c94c5
+    --button-primary: #5c94c5;
+    --dark: #000;
 }
 
 *,
@@ -62,6 +63,11 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    background: var(--dark);
+}
+
+/* Button Start */
 .button {
     font-family: 'Inter ExtraBold';
     font-size: 14px;
@@ -77,6 +83,8 @@ html {
     color: var(--button-primary);
     background: var(--light);
 }
+
+/* Button End */
 
 /* Header Start */
 
@@ -332,11 +340,107 @@ html {
 /* Footer End */
 
 /* Partners Main Start */
-main {
-    background: url(../img/partners/partners-bg-desktop.webp);
+#partners {
+    background: url(../img/partners/partners-bg-mobile.webp);
     background-size: cover;
+    background-position: center;
     width: 100%;
-    height: 764px;
+    margin-top: 48px;
+    padding-bottom: 31px;
+}
+
+#partners .partners__container {
+    padding: 20px 10px 0px 10px;
+}
+
+#partners .partners__container .partners__title {
+    font-family: 'Inter Bold';
+    font-size: 36px;
+    color: var(--light);
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#partners .partners__container .partners__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+}
+
+#partners .partners__container .partners__wrapper .partners__partner {
+    width: 300px;
+    height: 155px;
+    border-radius: 8px;
+    background: var(--light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s all;
+}
+
+#partners .partners__container .partners__wrapper .partners__partner:active {
+    transform: scale(0.95);
+}
+
+#partners .partners__container .partners__wrapper .partners__partner .partners__intita-logo {
+    width: 242px;
+    height: 83px;
+}
+
+#partners .partners__container .partners__wrapper .partners__partner .partners__it-academy-logo {
+    width: 240px;
+    height: 82px;
+}
+
+#partners .partners__container .partners__wrapper .partners__partner .partners__job-to-youth-logo {
+    width: 240px;
+    height: 57px;
+}
+
+#partners .partners__container .partners__wrapper .partners__partner .partners__kava-drive-logo {
+    width: 240px;
+    height: 72px;
+}
+
+#partners .partners__container .partners__wrapper .partners__partner .partners__drones-dep-logo {
+    width: 153px;
+    height: 93px;
+}
+
+#partners .partners__container .partners__wrapper .partners__partner .partners__dv-logo {
+    width: 93px;
+    height: 93px;
+}
+
+#partners .partners__container .partners__wrapper .partners__partner .partners__stem-logo {
+    width: 242px;
+    height: 56px;
+}
+
+#partners .partners__container .partners__wrapper .partners__partner .partners__profit-day-logo {
+    width: 241px;
+    height: 46px;
+}
+
+#partners .partners__container .partners__wrapper .partners__partner .partners__acted-logo {
+    width: 241px;
+    height: 93px;
+}
+
+#partners .partners__container .partners__wrapper .partners__partner .partners__canada-logo {
+    width: 241px;
+    height: 22px;
+}
+
+#partners .partners__container .partners__wrapper .partners__partner .partners__zero-logo {
+    width: 83px;
+    height: 84px;
+}
+
+#partners .partners__container .partners__wrapper .partners__partner .partners__seed-logo {
+    width: 158px;
+    height: 85px;
 }
 
 /* Partners Main End */
@@ -344,6 +448,20 @@ main {
 
 
 /*------------------------ @ media ----------------------------*/
+
+/*------------------------ 640px ----------------------------*/
+
+
+@media (min-width: 640px) {
+
+    /* Partners Main Start */
+    #partners .partners__container .partners__wrapper {
+        gap: 32px 20px;
+    }
+
+    /* Partners Main End */
+}
+
 
 /*------------------------ 1024px ----------------------------*/
 
@@ -509,6 +627,95 @@ main {
         width: 767px;
         margin: 0 auto;
     }
+
+    /* Partners Main Start */
+    #partners {
+        background: url(../img/partners/partners-bg-desktop.webp);
+        background-size: cover;
+        background-position: center;
+        margin-top: 73px;
+        padding-bottom: 40px;
+    }
+
+    #partners .partners__container {
+        padding: 40px 10px 0px 10px;
+    }
+
+    #partners .partners__container .partners__title {
+        font-size: 64px;
+        margin-bottom: 50px;
+    }
+
+    #partners .partners__container .partners__wrapper .partners__partner {
+        width: 329px;
+        height: 170px;
+    }
+
+    #partners .partners__container .partners__wrapper .partners__partner:hover {
+        opacity: 0.9;
+        transform: scale(1.05);
+    }
+
+    #partners .partners__container .partners__wrapper .partners__partner .partners__intita-logo {
+        width: 265px;
+        height: 91px;
+    }
+
+    #partners .partners__container .partners__wrapper .partners__partner .partners__it-academy-logo {
+        width: 265px;
+        height: 91px;
+    }
+
+    #partners .partners__container .partners__wrapper .partners__partner .partners__job-to-youth-logo {
+        width: 265px;
+        height: 63px;
+    }
+
+    #partners .partners__container .partners__wrapper .partners__partner .partners__kava-drive-logo {
+        width: 265px;
+        height: 79px;
+    }
+
+    #partners .partners__container .partners__wrapper .partners__partner .partners__drones-dep-logo {
+        width: 153px;
+        height: 93px;
+    }
+
+    #partners .partners__container .partners__wrapper .partners__partner .partners__dv-logo {
+        width: 93px;
+        height: 93px;
+    }
+
+    #partners .partners__container .partners__wrapper .partners__partner .partners__stem-logo {
+        width: 266px;
+        height: 62px;
+    }
+
+    #partners .partners__container .partners__wrapper .partners__partner .partners__profit-day-logo {
+        width: 265px;
+        height: 51px;
+    }
+
+    #partners .partners__container .partners__wrapper .partners__partner .partners__acted-logo {
+        width: 265px;
+        height: 102px;
+    }
+
+    #partners .partners__container .partners__wrapper .partners__partner .partners__canada-logo {
+        width: 265px;
+        height: 24px;
+    }
+
+    #partners .partners__container .partners__wrapper .partners__partner .partners__zero-logo {
+        width: 91px;
+        height: 93px;
+    }
+
+    #partners .partners__container .partners__wrapper .partners__partner .partners__seed-logo {
+        width: 173px;
+        height: 93px;
+    }
+    /* Partners Main End */
 }
 
 /*------------------------ 1440px ----------------------------*/
@@ -526,5 +733,6 @@ main {
     #footer .footer__container {
         padding: 25px 89px;
     }
+
     /* Footer End */
 }
