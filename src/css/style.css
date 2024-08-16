@@ -539,6 +539,91 @@ body {
 
 /* Mentors Main End */
 
+/* Provisions Main Start */
+#provisions {
+    background: url(../img/bg-mobile.webp);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    margin-top: 48px;
+    padding-bottom: calc(40px + (60 - 40) * ((100vw - 375px) / (1440 - 375)));
+    ;
+}
+
+#provisions .provisions__container {
+    padding-top: calc(20px + (60 - 20) * ((100vw - 375px) / (1440 - 375)));
+    color: var(--light);
+    width: calc(335px + (1044 - 335) * ((100vw - 375px) / (1440 - 375)));
+    margin: 0 auto;
+}
+
+#provisions .provisions__container .provisions__title {
+    font-family: 'Inter Bold';
+    font-size: calc(36px + (64 - 36) * ((100vw - 375px) / (1440 - 375)));
+    text-align: center;
+    margin-bottom: calc(5px + (20 - 5) * ((100vw - 375px) / (1440 - 375)));
+}
+
+#provisions .provisions__container .provisions__description-txt {
+    font-family: 'Inter Regular';
+    font-size: calc(12px + (26 - 12) * ((100vw - 375px) / (1440 - 375)));
+    width: calc(248px + (842 - 248) * ((100vw - 375px) / (1440 - 375)));
+    text-align: center;
+    margin: 0 auto 40px auto;
+}
+
+#provisions .provisions__container .provisions__block {
+    margin-bottom: 40px;
+}
+
+#provisions .provisions__container .provisions__block:last-child {
+    margin-bottom: unset;
+}
+
+#provisions .provisions__container .provisions__block .provisions__block-title {
+    font-family: 'Inter Bold';
+    font-size: 24px;
+    font-size: calc(24px + (32 - 24) * ((100vw - 375px) / (1440 - 375)));
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#provisions .provisions__container .provisions__block .provisions__block-txt {
+    width: 100%;
+    padding: calc(10px + (20 - 10) * ((100vw - 375px) / (1440 - 375)));
+    background: var(--primary);
+    border-radius: 16px;
+    font-family: 'Inter Regular';
+    font-size: calc(12px + (24 - 12) * ((100vw - 375px) / (1440 - 375)));
+    line-height: 140%;
+}
+
+#provisions .provisions__container .provisions__block .provisions__block-txt .provisions__block-txt-link {
+    font-family: 'Inter Bold';
+    color: var(--button-primary);
+    text-decoration: underline;
+}
+
+#provisions .provisions__container .provisions__block .provisions__block-txt .provisions__block-list .provisions__block-list-item {
+    list-style-type: decimal;
+    margin-left: calc(17px + (29 - 17) * ((100vw - 375px) / (1440 - 375)));
+}
+
+#provisions .provisions__container .provisions__block .provisions__block-txt .provisions__assessment-list .provisions__assessment-list-item {
+    list-style-type: decimal;
+    margin-left: calc(20px + (46 - 20) * ((100vw - 375px) / (1440 - 375)));
+}
+
+#provisions .provisions__container .provisions__block .provisions__block-txt .provisions__contacts {
+    color: var(--light);
+}
+
+.provisions__txt-bold {
+    font-family: 'Inter Bold';
+}
+
+/* Provisions Main End */
+
 /*------------------------ @ media ----------------------------*/
 
 /*------------------------ 640px ----------------------------*/
@@ -744,6 +829,7 @@ body {
         width: 767px;
         margin: 0 auto;
     }
+    /* Footer End */
 
     /* Partners Main Start */
     #partners {
@@ -873,13 +959,24 @@ body {
     }
 
     #mentors .mentors__container .mentors__wrapper .mentors__mentor .mentors__mentor-img .mentors__mentor-caption-block .mentors__mentor-caption {
-        font-size: calc((32*0.7)/1024*100vw);;
+        font-size: calc((32*0.7)/1024*100vw);
+        ;
     }
 
     #mentors .mentors__container .mentors__wrapper .mentors__mentor .mentors__mentor-txt {
         font-size: calc((18*0.7)/1024*100vw);
     }
+
     /* Mentors Main End */
+
+    /* Provisions Main Start */
+    #provisions {
+        background: url(../img/bg-desktop.webp);
+        background-size: cover;
+        background-position: center;
+        margin-top: 72px;
+    }
+    /* Provisions Main End */
 }
 
 /*------------------------ 1440px ----------------------------*/
@@ -935,11 +1032,47 @@ body {
     }
 
     #mentors .mentors__container .mentors__wrapper .mentors__mentor .mentors__mentor-img .mentors__mentor-caption-block .mentors__mentor-caption {
-        font-size: 32px;;
+        font-size: 32px;
+        ;
     }
 
     #mentors .mentors__container .mentors__wrapper .mentors__mentor .mentors__mentor-txt {
         font-size: 18px;
     }
+
     /* Mentors Main End */
+
+    /* Provisions Main Start */
+    #provisions .provisions__container {
+        padding-top: 60px;
+        width: 1044px;
+    }
+
+    #provisions .provisions__container .provisions__title {
+        font-size: 64px;
+        margin-bottom: 20px;
+    }
+
+    #provisions .provisions__container .provisions__description-txt {
+        font-size: 26px;
+        width: 842px;
+    }
+
+    #provisions .provisions__container .provisions__block .provisions__block-title {
+        font-size: 32px;
+    }
+
+    #provisions .provisions__container .provisions__block .provisions__block-txt {
+        padding: 20px;
+        font-size: 24px;
+    }
+
+    #provisions .provisions__container .provisions__block .provisions__block-txt .provisions__block-list .provisions__block-list-item {
+        margin-left: 29px;
+    }
+    
+    #provisions .provisions__container .provisions__block .provisions__block-txt .provisions__assessment-list .provisions__assessment-list-item {
+        margin-left: 46px;
+    }
+    /* Provisions Main End */
 }
