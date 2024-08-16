@@ -1,16 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IT 100 Mentors</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IT100 Mentors</title>
 
-    <link rel="stylesheet" href="src/css/icomoon.css">
-    <link rel="stylesheet" href="src/css/style.css">
-</head>
-<body>
-    
+    <link rel="stylesheet" href="src/css/icomoon.css" />
+    <link rel="stylesheet" href="src/css/style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="header__container">
+        <a class="header__logo-link" href="#top">
+          <img class="header__logo" src="src/img/IT-100-logo.webp" alt="IT100 logo" />
+        </a>
+        <div id="header__burger" class="header__burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div id="header__menu" class="header__menu">
+          <nav class="header__menu-nav">
+            <ul class="header__menu-list">
+              <li class="header__menu-item"><a class="header__menu-item-link" href="mentors.html">Ментори</a></li>
+              <li class="header__menu-item"><a class="header__menu-item-link" href="partners.html">Партнери</a></li>
+              <li class="header__menu-item"><a class="header__menu-item-link" href="#">Порядок відбору</a></li>
+              <li class="header__menu-item"><a class="header__menu-item-link" href="#">Положення</a></li>
+            </ul>
+          </nav>
+          <div class="header__dropdown">
+            <div id="header__dropdown-name" class="header__dropdown-name">
+              <span class="header__dropdown-label">Наші програми</span>
+              <i id="header__dropdown-icon" class="header__dropdown-icon icon-arrow"></i>
+            </div>
+            <ul id="header__dropdown-list" class="header__dropdown-list">
+              <li class="header__dropdown-item"><a class="header__dropdown-link" target="_blank" href="https://it.uspih.vn.ua/">IT-Успіх</a></li>
+              <li class="header__dropdown-item"><a class="header__dropdown-link" target="_blank" href="https://profitday.info/">Дні кар’єри</a></li>
+              <li class="header__dropdown-item"><a class="header__dropdown-link" target="_blank" href="https://kavadrive.com/#promo">Кава ветерана</a></li>
+              <li class="header__dropdown-item"><a class="header__dropdown-link" target="_blank" href="http://yeps.intita.com/">Хакатони YEPS</a></li>
+              <li class="header__dropdown-item"><a class="header__dropdown-link" target="_blank" href="https://drone.intita.com/">Кафедра дронів</a></li>
+              <li class="header__dropdown-item"><a class="header__dropdown-link" target="_blank" href="https://english.intita.com/">Англійська для IT</a></li>
+              <li class="header__dropdown-item"><a class="header__dropdown-link" target="_blank" href="https://getstrong.intita.com/">Підтримка малого бізнесу</a></li>
+              <li class="header__dropdown-item"><a class="header__dropdown-link" target="_blank" href="https://uspih.vn.ua/">Працевлаштування ветеранів і ВПО</a></li>
+            </ul>
+          </div>
+          <a class="header__language" href="">ua</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="mentors">
+      <div class="mentors__container">
+        <h1 class="mentors__title">Ментори</h1>
+        <div class="mentors__wrapper">
+          <div class="mentors__mentor">
+            <div class="mentors__mentor-img mentors__mentor-img-first">
+              <div class="mentors__mentor-caption-block">
+                <p class="mentors__mentor-caption">Wade Warren</p>
+              </div>
+            </div>
+            <p class="mentors__mentor-txt">Lorem ipsum dolor sit amet consectetur. Nisi et et mauris posuere velit libero tortor feugiat risus. Diam fringilla at sit amet fermentum.</p>
+          </div>
+          <div class="mentors__mentor">
+            <div class="mentors__mentor-img mentors__mentor-img-second">
+              <div class="mentors__mentor-caption-block">
+                <p class="mentors__mentor-caption">Marvin McKinney</p>
+              </div>
+            </div>
+            <p class="mentors__mentor-txt">Lorem ipsum dolor sit amet consectetur. Nisi et et mauris posuere velit libero tortor feugiat risus. Diam fringilla at sit amet fermentum.</p>
+          </div>
+          <div class="mentors__mentor">
+            <div class="mentors__mentor-img mentors__mentor-img-third">
+              <div class="mentors__mentor-caption-block">
+                <p class="mentors__mentor-caption">Jacob Jones</p>
+              </div>
+            </div>
+            <p class="mentors__mentor-txt">Lorem ipsum dolor sit amet consectetur. Nisi et et mauris posuere velit libero tortor feugiat risus. Diam fringilla at sit amet fermentum.</p>
+          </div>
+          <div class="mentors__mentor">
+            <div class="mentors__mentor-img mentors__mentor-img-fourth">
+              <div class="mentors__mentor-caption-block">
+                <p class="mentors__mentor-caption">Jane Cooper</p>
+              </div>
+            </div>
+            <p class="mentors__mentor-txt">Lorem ipsum dolor sit amet consectetur. Nisi et et mauris posuere velit libero tortor feugiat risus. Diam fringilla at sit amet fermentum.</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer id="footer">
+      <div class="footer__container">
+        <div class="footer__central-block">
+          <p class="footer__central-block-txt">Бажаєте долучитись до проєкту, як партнер чи ментор - зконтактуйте з нами:</p>
+          <a class="footer__phone" href="tel:+380631892256">тел. 380631892256</a>
+          <div class="footer__social-media">
+            <a class="footer__sm-link" href="#">
+              <i class="footer__sm-icon footer__sm-facebook icon-facebook"></i>
+            </a>
+            <a class="footer__sm-link" href="#">
+              <i class="footer__sm-icon footer__sm-instagram icon-instagram"></i>
+            </a>
+          </div>
+        </div>
+        <a class="footer__logo-link" href="#">
+          <img class="footeer__logo-img" src="src/img/IT-100-logo.webp" alt="IT100 logo" />
+        </a>
+        <div class="footer__right-block">
+          <p class="footer__rb-upper-txt">Стань айтішником гарантовано!</p>
+          <p class="footer__rb-lower-txt">Зроби свій перший крок до успіху</p>
+          <a class="button" href="">РЕЄСТРУЙСЯ</a>
+        </div>
+      </div>
+      <p class="footer__bottom-text">
+        Усі учасники Української ІТ-Сотні отримають якісну фундаментальну та професійну підготовку за напрямками - програмування, тестування, веб-дизайн, проєктний менеджмент та персональний супровід до працевлаштування в ІТ-індустрії
+      </p>
+    </footer>
 
     <script src="src/js/script.js"></script>
-</body>
+  </body>
 </html>
