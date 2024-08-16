@@ -309,16 +309,22 @@ body {
     margin-bottom: 33px;
 }
 
+#footer .footer__container .footer__central-block .footer__phone:active {
+    color: var(--button-primary);
+}
+
 #footer .footer__container .footer__central-block .footer__social-media {
     display: flex;
     gap: 28px;
     margin-bottom: 33px;
 }
 
-#footer .footer__container .footer__central-block .footer__social-media .footer__sm-lin {}
-
 #footer .footer__container .footer__central-block .footer__social-media .footer__sm-link .footer__sm-icon {
     font-size: 28px;
+}
+
+#footer .footer__container .footer__central-block .footer__social-media .footer__sm-link .footer__sm-icon:active::before {
+    color: var(--button-primary);
 }
 
 #footer .footer__container .footer__logo-link {}
@@ -341,7 +347,7 @@ body {
 
 /* Partners Main Start */
 #partners {
-    background: url(../img/partners/partners-bg-mobile.webp);
+    background: url(../img/bg-mobile.webp);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -445,7 +451,93 @@ body {
 
 /* Partners Main End */
 
+/* Mentors Main Start */
+#mentors {
+    background: url(../img/bg-mobile.webp);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    margin-top: 48px;
+    padding-bottom: 31px;
+}
 
+#mentors .mentors__container {
+    padding: 20px 10px 0px 10px;
+}
+
+#mentors .mentors__container .mentors__title {
+    font-family: 'Inter Bold';
+    font-size: 36px;
+    color: var(--light);
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#mentors .mentors__container .mentors__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+}
+
+#mentors .mentors__container .mentors__wrapper .mentors__mentor {
+    width: 300px;
+    min-height: 260px;
+}
+
+#mentors .mentors__container .mentors__wrapper .mentors__mentor .mentors__mentor-img {
+    width: 100%;
+    height: 212px;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 49.339px 0px 44.586px 0px;
+    margin-bottom: 6px;
+}
+
+#mentors .mentors__container .mentors__wrapper .mentors__mentor .mentors__mentor-img-first {
+    background: url(../img/mentors/photos/wade.png);
+    background-size: cover;
+}
+
+#mentors .mentors__container .mentors__wrapper .mentors__mentor .mentors__mentor-img-second {
+    background: url(../img/mentors/photos/marvin.png);
+    background-size: cover;
+}
+
+#mentors .mentors__container .mentors__wrapper .mentors__mentor .mentors__mentor-img-third {
+    background: url(../img/mentors/photos/jacob.png);
+    background-size: cover;
+}
+
+#mentors .mentors__container .mentors__wrapper .mentors__mentor .mentors__mentor-img-fourth {
+    background: url(../img/mentors/photos/jane.png);
+    background-size: cover;
+}
+
+#mentors .mentors__container .mentors__wrapper .mentors__mentor .mentors__mentor-img .mentors__mentor-caption-block {
+    width: 100%;
+    height: 60px;
+    background: rgba(92, 148, 197, 0.90);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 44.586px 0px;
+}
+
+#mentors .mentors__container .mentors__wrapper .mentors__mentor .mentors__mentor-img .mentors__mentor-caption-block .mentors__mentor-caption {
+    font-family: 'Inter Bold';
+    font-size: 20px;
+    color: var(--light);
+}
+
+#mentors .mentors__container .mentors__wrapper .mentors__mentor .mentors__mentor-txt {
+    font-family: 'Inter Regular';
+    font-size: 11px;
+    color: var(--light);
+    text-align: center;
+}
+
+/* Mentors Main End */
 
 /*------------------------ @ media ----------------------------*/
 
@@ -460,6 +552,19 @@ body {
     }
 
     /* Partners Main End */
+}
+
+/*------------------------ 768px ----------------------------*/
+
+
+@media (min-width: 768px) {
+
+    /* Mentors Main Start */
+    #mentors .mentors__container {
+        padding: 20px 50px 0px 50px;
+    }
+
+    /* Mentors Main End */
 }
 
 
@@ -526,6 +631,10 @@ body {
 
     #header .header__container .header__menu .header__dropdown .header__dropdown-name .header__dropdown-label {
         font-size: 16px;
+    }
+
+    #header .header__container .header__menu .header__dropdown .header__dropdown-name .header__dropdown-icon {
+        font-size: 7px;
     }
 
     #header .header__container .header__menu .header__dropdown .header__dropdown-list {
@@ -601,6 +710,14 @@ body {
         margin-bottom: 41px;
     }
 
+    #footer .footer__container .footer__central-block .footer__phone:hover {
+        color: var(--button-primary);
+    }
+
+    #footer .footer__container .footer__central-block .footer__social-media .footer__sm-link .footer__sm-icon:hover::before {
+        color: var(--button-primary);
+    }
+
     #footer .footer__container .footer__right-block {
         display: flex;
         flex-direction: column;
@@ -630,7 +747,7 @@ body {
 
     /* Partners Main Start */
     #partners {
-        background: url(../img/partners/partners-bg-desktop.webp);
+        background: url(../img/bg-desktop.webp);
         background-size: cover;
         background-position: center;
         margin-top: 73px;
@@ -715,7 +832,54 @@ body {
         width: 173px;
         height: 93px;
     }
+
     /* Partners Main End */
+
+    /* Mentors Main Start */
+    #mentors {
+        background: url(../img/bg-desktop.webp);
+        background-size: cover;
+        background-position: center;
+        margin-top: calc((72*0.7)/1024*100vw);
+        padding-bottom: calc((87*0.7)/1024*100vw);
+    }
+
+    #mentors .mentors__container {
+        padding: 60px calc((200*0.7)/1024*100vw) 0px calc((200*0.7)/1024*100vw);
+    }
+
+    #mentors .mentors__container .mentors__title {
+        font-size: calc((64*0.7)/1024*100vw);
+    }
+
+    #mentors .mentors__container .mentors__wrapper {
+        gap: calc((95*0.7)/1024*100vw) calc((80*0.7)/1024*100vw);
+    }
+
+    #mentors .mentors__container .mentors__wrapper .mentors__mentor {
+        width: calc((471*0.7)/1024*100vw);
+        min-height: calc((408*0.7)/1024*100vw);
+    }
+
+    #mentors .mentors__container .mentors__wrapper .mentors__mentor .mentors__mentor-img {
+        height: calc((332*0.7)/1024*100vw);
+        border-radius: calc((77.462*0.7)/1024*100vw) 0px calc((70*0.7)/1024*100vw) 0px;
+        margin-bottom: 10px;
+    }
+
+    #mentors .mentors__container .mentors__wrapper .mentors__mentor .mentors__mentor-img .mentors__mentor-caption-block {
+        height: calc((94*0.7)/1024*100vw);
+        border-radius: 0px 0px calc((70*0.7)/1024*100vw) 0px;
+    }
+
+    #mentors .mentors__container .mentors__wrapper .mentors__mentor .mentors__mentor-img .mentors__mentor-caption-block .mentors__mentor-caption {
+        font-size: calc((32*0.7)/1024*100vw);;
+    }
+
+    #mentors .mentors__container .mentors__wrapper .mentors__mentor .mentors__mentor-txt {
+        font-size: calc((18*0.7)/1024*100vw);
+    }
+    /* Mentors Main End */
 }
 
 /*------------------------ 1440px ----------------------------*/
@@ -735,4 +899,47 @@ body {
     }
 
     /* Footer End */
+
+    /* Mentors Main Start */
+    #mentors {
+        margin-top: 72px;
+        padding-bottom: 87px;
+    }
+
+    #mentors .mentors__container {
+        padding: 60px 200px 0px 200px;
+    }
+
+    #mentors .mentors__container .mentors__title {
+        font-size: 64px;
+    }
+
+    #mentors .mentors__container .mentors__wrapper {
+        gap: 95px 80px;
+    }
+
+    #mentors .mentors__container .mentors__wrapper .mentors__mentor {
+        width: 471px;
+        min-height: 408px;
+    }
+
+    #mentors .mentors__container .mentors__wrapper .mentors__mentor .mentors__mentor-img {
+        height: 332px;
+        border-radius: 77.462px 0px 70px 0px;
+        margin-bottom: 10px;
+    }
+
+    #mentors .mentors__container .mentors__wrapper .mentors__mentor .mentors__mentor-img .mentors__mentor-caption-block {
+        height: 94px;
+        border-radius: 0px 0px 70px 0px;
+    }
+
+    #mentors .mentors__container .mentors__wrapper .mentors__mentor .mentors__mentor-img .mentors__mentor-caption-block .mentors__mentor-caption {
+        font-size: 32px;;
+    }
+
+    #mentors .mentors__container .mentors__wrapper .mentors__mentor .mentors__mentor-txt {
+        font-size: 18px;
+    }
+    /* Mentors Main End */
 }
