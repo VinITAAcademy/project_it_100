@@ -59,3 +59,66 @@ document.addEventListener("click", (event) => {
     }
   }
 });
+
+// Mentors loading
+let currentItems = 0;
+let itemsPerLoad = 4;
+let isLoading = false;
+
+function loadMentors() {
+  fetch("src/data/IT100.json")
+    .then((response) => response.json())
+    .then((data) => {
+      const mentorsWrapper = document.getElementById("mentors__wrapper");
+      const end = currentItems + itemsPerLoad;
+      const slicedData = data.slice(currentItems, end);
+
+      slicedData.forEach((mentor) => {
+        const card = document.createElement("div");
+        card.className = "mentors__mentor";
+        card.innerHTML = `<div class="mentors__mentor-img" style="background: url(${mentor.image}); background-size: cover;">
+              <div class="mentors__mentor-caption-block">
+                <p class="mentors__mentor-caption">${mentor.name}</p>
+              </div>
+            </div>
+            <ul class="mentors__mentor-txt" type = "disc">
+              <li class="mentors__mentor-item mentors__mentor-position">${mentor.position}</li>
+              <li class="mentors__mentor-item mentors__mentor-experience">${mentor.experience}</li>
+            </ul>`;
+        mentorsWrapper.appendChild(card);
+      });
+      currentItems = end;
+      isLoading = false;
+    });
+}
+
+function loadItems() {
+  if (isLoading) return; // Prevent duplicate loads
+  isLoading = true;
+
+  // Simulate a delay for loading items
+  if (currentItems < 4) {
+    loadMentors();
+  } else {
+    setTimeout(() => {
+      loadMentors();
+    }, 500);
+  }
+}
+
+function handleScroll() {
+  const { scrollTop, scrollHeight, clientHeight } = document.documentElement;
+  let footerHeight = 0;
+  footerHeight = 112;
+  if (scrollTop + clientHeight >= scrollHeight - footerHeight && !isLoading) {
+    loadItems();
+  }
+}
+
+// Run the function to handle scroll for infinite loading
+if (!isLoading) {
+  document.addEventListener("DOMContentLoaded", function () {
+    loadItems();
+    window.addEventListener("scroll", handleScroll);
+  });
+}
