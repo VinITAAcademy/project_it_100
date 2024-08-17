@@ -494,10 +494,10 @@ body {
     margin-bottom: 6px;
 }
 
-#mentors .mentors__container .mentors__wrapper .mentors__mentor .mentors__mentor-img-first {
+/* #mentors .mentors__container .mentors__wrapper .mentors__mentor .mentors__mentor-img-first {
     background: url(../img/mentors/photos/wade.png);
     background-size: cover;
-}
+} */
 
 #mentors .mentors__container .mentors__wrapper .mentors__mentor .mentors__mentor-img-second {
     background: url(../img/mentors/photos/marvin.png);
@@ -534,8 +534,14 @@ body {
     font-family: 'Inter Regular';
     font-size: 11px;
     color: var(--light);
-    text-align: center;
 }
+
+#mentors .mentors__container .mentors__wrapper .mentors__mentor .mentors__mentor-txt .mentors__mentor-item {
+    list-style-type: disc;
+    margin-left: 16px;
+}
+
+
 
 /* Mentors Main End */
 
@@ -731,6 +737,7 @@ body {
         padding: 15px;
         height: 343px;
         background-color: var(--light);
+        box-shadow: 4px 4px 10.5px 0px rgba(0, 0, 0, 0.40);
         border-radius: 12px;
     }
 
@@ -1004,7 +1011,9 @@ body {
     }
 
     #mentors .mentors__container {
-        padding: 60px 200px 0px 200px;
+        padding: 40px 0px 0px 0px;
+        width: 1022px;
+        margin: 0 auto;
     }
 
     #mentors .mentors__container .mentors__title {
