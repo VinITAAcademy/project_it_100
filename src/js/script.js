@@ -62,7 +62,7 @@ document.addEventListener("click", (event) => {
 
 // Mentors loading
 let currentItems = 0;
-let itemsPerLoad = 4;
+let itemsPerLoad = 6;
 let isLoading = false;
 
 function loadMentors() {
@@ -77,10 +77,10 @@ function loadMentors() {
         const card = document.createElement("div");
         card.className = "mentors__mentor";
         card.innerHTML = `<div class="mentors__mentor-img" style="background: url(${mentor.image}); background-size: cover;">
-              <div class="mentors__mentor-caption-block">
+            </div>
+            <div class="mentors__mentor-caption-block">
                 <p class="mentors__mentor-caption">${mentor.name}</p>
               </div>
-            </div>
             <ul class="mentors__mentor-txt" type = "disc">
               <li class="mentors__mentor-item mentors__mentor-position">${mentor.position}</li>
               <li class="mentors__mentor-item mentors__mentor-experience">${mentor.experience}</li>
