@@ -453,7 +453,7 @@ body {
 
 /* Mentors Main Start */
 #mentors {
-    background: url(../img/bg-mobile.webp);
+    background: url(../img/bg-mobile.svg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -925,7 +925,7 @@ body {
 
     /* Mentors Main Start */
     #mentors {
-        background: url(../img/bg-desktop.webp);
+        background: url(../img/bg-desktop.svg);
         background-size: cover;
         background-position: center;
         margin-top: calc((72*0.7)/1024*100vw);
