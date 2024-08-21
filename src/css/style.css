@@ -94,6 +94,7 @@ body {
     width: 100%;
     height: 48px;
     background: var(--primary);
+    z-index: 100;
 }
 
 #header .header__container {
@@ -447,6 +448,21 @@ body {
 #partners .partners__container .partners__wrapper .partners__partner .partners__seed-logo {
     width: 158px;
     height: 85px;
+}
+
+#partners .partners__container .partners__wrapper .partners__partner .partners__asta-mobi {
+    width: 90px;
+    height: 90px;
+}
+
+#partners .partners__container .partners__wrapper .partners__partner .partners__ria {
+    width: 130px;
+    height: 93px;
+}
+
+#partners .partners__container .partners__wrapper .partners__partner .partners__auto-ria {
+    width: 114px;
+    height: 93px;
 }
 
 /* Partners Main End */
@@ -918,6 +934,11 @@ body {
 
     #partners .partners__container .partners__wrapper .partners__partner .partners__seed-logo {
         width: 173px;
+        height: 93px;
+    }
+
+    #partners .partners__container .partners__wrapper .partners__partner .partners__asta-mobi {
+        width: 93px;
         height: 93px;
     }
 
