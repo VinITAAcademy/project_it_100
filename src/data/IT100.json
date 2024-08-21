@@ -7,20 +7,6 @@
     "image": "src/img/mentors/photos/Vitalii_Bohdaniuk.webp"
   },
   {
-    "name": "Мар'яна Дерлиця ",
-    "name_eng": "Mariana Derlytsia",
-    "experience": "В ІТ прийшла в 2019 році після 10 років педагогічної роботи. Відтоді з головою пірнула в дизайн цифрових продуктів, брала участь у розробці сайтів, веб продуктів, мобільних додатків. ",
-    "position": "UI/UX designer",
-    "image": "src/img/mentors/photos/wade.png"
-  },
-  {
-    "name": "Ігор Баранюк",
-    "name_eng": "Ihor Baraniuk",
-    "experience": "В сфері ІТ з 2015 року. Full stack web розробник з досвідом роботи на більш ніж 15-ти комерційних проектах, на деяких з них з посадою тімліда. Також разом з командою інтузіастів працюємо над розвитком власної освітньої платформи Intita, яку активно розвиваємо та підтримуємо.",
-    "position": "Full stack web developer",
-    "image": "src/img/mentors/photos/wade.png"
-  },
-  {
     "name": "Альона Богданюк",
     "name_eng": "Alona Bohdaniuk",
     "experience": "Не працюю ",
@@ -32,14 +18,7 @@
     "name_eng": "Artem Stakhov",
     "experience": "З 2007 по 2009 роки займав посаду системного адміністратора.\nВ 2011 році закінчив Вінницький Національний Технічний Університет і отримав повну вищу освіту за спеціальністю \"Програмне забезпечення автоматизованих систем\" та здобув кваліфікацію магістра. \nЗ 2011 року розпочав роботу в компанії SysIQ (Astound Commerce) на посаді Java Developer. ",
     "position": "Java Developer",
-    "image": "src/img/mentors/photos/wade.png"
-  },
-  {
-    "name": "Ярослав Плаксій",
-    "name_eng": "Yaroslav Plaksii",
-    "experience": "Більше 13 років розробки WEB проектів",
-    "position": "Full Stack Web Developer",
-    "image": "src/img/mentors/photos/wade.png"
+    "image": "src/img/mentors/photos/Artem_Stakhov.webp"
   },
   {
     "name": "Олександр Сандул",
@@ -53,14 +32,14 @@
     "name_eng": "Mykhailo Basenko",
     "experience": "У 2006 - 2015рр працював в департаментах IT податкових служб м. Вінниці.  з 2017р. процюю розробником веб застосунків у вітчихняних та закордоних компаніях",
     "position": "Senior Ruby Software Engineer",
-    "image": "src/img/mentors/photos/wade.png"
+    "image": "src/img/mentors/photos/Mykhailo_Basenko.webp"
   },
   {
     "name": "Богдан Левицький",
     "name_eng": "Bohdan Levytskyi",
     "experience": "Навчався в Вінницькій ІТ Академії в період 2016-2017рр. Працював в компанії RubyCon 04.2017-01.2022 на позиції backend Ruby on Rails developer . З 02.2022 по тепер працюю в Anybiz LTD backend Ruby on Rails developer ",
     "position": "Senior  backend developer",
-    "image": "src/img/mentors/photos/wade.png"
+    "image": "src/img/mentors/photos/Bohdan_Levytskyi.webp"
   },
   {
     "name": "Олександр Ліщинський",
@@ -68,13 +47,6 @@
     "experience": "13 досвіду веб розробки. В своїй практиці використовую такі мови програмування та технології: PHP, JavaScript, Elixir, Erlang, MySQL, RabbitMq, Apache Kafka. Маю досвід в розробці, впровадженні і підтримці високонавантажених систем, білінгових систем, систем CRM.",
     "position": "Cheaf Technical Officer",
     "image": "src/img/mentors/photos/Olexandr_Lishchynskyi.webp"
-  },
-  {
-    "name": "Олег Черній",
-    "name_eng": "Oleg Cherniy",
-    "experience": "Працюю в галузі IT більше 30 років, маю досвід розробки програмних модулів на мовах Perl, PHP, JavaScript, Python. Поглиблено вивчав прикладне застосування моделей машинного навчання, брав участь у розробці багатьох модулів з застосуванням комп'ютерного бачення. Зокрема створив проект з відкритим кодом з розпізнавання номерних знаків Nomeroff Net.",
-    "position": "Викладач",
-    "image": "src/img/mentors/photos/wade.png"
   },
   {
     "name": "Михайло Глушко",
@@ -95,7 +67,7 @@
     "name_eng": "Yevhenii Hudzinskyi",
     "experience": "Більше 10 років займаюсь розробкою веб-систем з використанням технологій PHP, MySql, JavaScript. Попередні 8 років працював над розробкою системи онлайн торгівлі. Маю досвід розробки як невеликих сайтів так і складних систем. Маю досвід роботи в командах різного розміру. ",
     "position": "Інженер-програміст",
-    "image": "src/img/mentors/photos/wade.png"
+    "image": "src/img/mentors/photos/Yevhenii_Hudzinskyi.webp"
   },
   {
     "name": "Олександр Дзюбенко",
@@ -116,7 +88,7 @@
     "name_eng": "Oleh Dubakov",
     "experience": "Senior Full-stack developer, основний напрям .net (framework/core), react/angular, мікросервіси та cloud. Працював в проектах пов'язаних з документообігом, зараз працюю на проекті пов'язаним з машинобудуванням. ",
     "position": "Senior Full-stack developer",
-    "image": "src/img/mentors/photos/wade.png"
+    "image": "src/img/mentors/photos/Oleh_Dubakov.webp"
   },
   {
     "name": "Андрій Котляренко",
@@ -130,7 +102,7 @@
     "name_eng": "Maksym Savisko",
     "experience": "З квітня 2016 року по даний час займаюсь комерційною розробкою мобільних додатків для платформи iOS. Починав свою кар'єру із маленької ІТ компанії сімейного типу та наразі співпрацюю із Sigma Software (ТОП 1 згідно рейтингу ІТ роботодавців України за даними DOU). Отримав досвід в різних доменах, починаючи із інтеграцією розумного годиннику для керування електровелосипедом і закінчуючи E-commerce для ТОП онлайн маркетплейсу ринку Великобританії та США. Маю досвід розробки із застосуванням різних мов програмування таких як Swift, Objective-C, Dart, Kotlin, Java та інших. ",
     "position": "Principal Software Developer",
-    "image": "src/img/mentors/photos/Maksym Savisko.webp"
+    "image": "src/img/mentors/photos/Maksym_Savisko.webp"
   },
   {
     "name": "Валерій Ткачов",
@@ -151,7 +123,7 @@
     "name_eng": "Ihor Luhanskyi ",
     "experience": "Розпочинав IT кар'єру у відділі митної статистики Старобільскої (1997), пізніше - Східної регіональної (Харків, 1999), пізніше - Регіональної інформаційної (Київ, 2008) митниць. З 2011 року працюю в Sigma Software. Спеціаліст з баз даних (Oracle, MS SQL) зі стажем  27 років. Працював також як DBA, Network Administrator, QA Engineer, Software Developer (C#) та Support Engineer. Останні 11 років працюю з Full Stack of MS SQL Server на позиції Support Engineer на проекті SAS (Sweden Airline System) - компанія, що займається авіаперевезеннями.",
     "position": "Support Engineer",
-    "image": "src/img/mentors/photos/Ihor_Luhanskyi .webp"
+    "image": "src/img/mentors/photos/Ihor_Luhanskyi.webp"
   },
   {
     "name": "Сергій Карташов",
@@ -165,7 +137,7 @@
     "name_eng": "Andrii Kandaurov",
     "experience": "Маю 20+ років досвіду роботи в IT. Працюю фулл стек розробником (BE/Web/Mobile). Часто виконую ролі тім ліду або проєктного архітектору. Величезний досвід роботи на бекенді (С#/.NET) і на фронті Mobile/Web (React-Native/React). Останнім часом більше працюю на фронті і займаюсь мобільною та веб розробкою.",
     "position": "Principal Software Developer",
-    "image": "src/img/mentors/photos/wade.png"
+    "image": "src/img/mentors/photos/Andrii_Kandaurov.webp"
   },
   {
     "name": "Олександр Лисенко ",
@@ -186,7 +158,7 @@
     "name_eng": "Volodymyr Shumilov",
     "experience": "Досвід роботи в IT більше 10 років. Розробка програмних додатків з використанням платформи Microsoft .NET, реляційних та нереляційних баз данних, різноманітних JS бібліотек. Співпраця с закородонними замовниками та колегами як в Україні, так і у відрядженнях. ",
     "position": "Software Developer (розробник програмного забезпечення)",
-    "image": "src/img/mentors/photos/wade.png"
+    "image": "src/img/mentors/photos/Volodymyr_Shumilov.webp"
   },
   {
     "name": "Остап Лісовий",
@@ -200,14 +172,14 @@
     "name_eng": "Yurii Abramenkov",
     "experience": "Я працюю в ІТ майже 10 років, а до цього був замовником ІТ рішень, керуючи відділом в інвестиційній компанії. Тож маю досвід з обох сторін комерційної згоди. Власний ІТ шлях я розпочав у 2014 році в ролі Маркетинг аналітика та досить швидко перейшов до ролі Тім ліда з розвитку бізнесу та продажів. З 2019 року очолюю напрям розвитку B2B кооперації у мережі партнерських компаній. Захоплююсь темами Штучного інтелекту (писав академічну дипломну роботу в 2023 році з цієї теми), Інформаційної безпеки, сучасними продуктами для Медицини і Фармакології. Вважаю, що ІТ – це безперервний розвиток, навчання та менторство – надання накопичених знань тим, кому цей досвід відкриватиме нові дороги.",
     "position": "Sales Support Team Lead",
-    "image": "src/img/mentors/photos/wade.png"
+    "image": "src/img/mentors/photos/Yurii_Abramenkov.webp"
   },
   {
     "name": "Ігор Михалюк",
     "name_eng": "Ihor Mykhaliuk",
     "experience": "DevOps спеціаліст з 10-ти річним досвідом роботи в ІТ та безпосереднім досвідом роботи DevOps понад 8 років.",
     "position": "Senior DevOps Engineer",
-    "image": "src/img/mentors/photos/wade.png"
+    "image": "src/img/mentors/photos/Ihor_Mykhaliuk.webp"
   },
   {
     "name": "Євгеній Андрущак",
@@ -228,7 +200,7 @@
     "name_eng": "Andrii Danylchenko",
     "experience": "Я почав свою ІТ кар'єру з інтернатури як і більшисть ІТ специалістів. Потім були проекти різних направлень від простих 3D ігор до складних розподілених веб застосунків.",
     "position": "Senior Software Developer",
-    "image": "src/img/mentors/photos/wade.png"
+    "image": "src/img/mentors/photos/Andrii_Danylchenko.webp"
   },
   {
     "name": "Анатолій Забіяка",
@@ -247,16 +219,9 @@
   {
     "name": "Кирило Бучинський",
     "name_eng": "Buchynskyi Kyrylo",
-    "experience": "Працюю в ІТ з 2018 року, є досвід роботи в наступним декількох доменних областях, досвід роботи як на аутсорс так і аутстаф. В основному спеціалізуюсь на розробці WEB додатків, а саме напрямок FrontEnd, без труднощів можу підтримувати серверну частину. ",
-    "position": "Middle Software Engineer",
-    "image": "src/img/mentors/photos/Kyrylo_Buchynskyi "
-  },
-  {
-    "name": "Кирило Бучинський",
-    "name_eng": "Buchynskyi Kyrylo",
     "experience": "Маю досвід роботи в декількох доменах: Health & Care, GameDev, AdTech, перебуваючи в основному та позиції Fronted Developer. Створення додатків з 0, підтримка та розвиток вже розроблених додатків. Оптимізація додатків. ",
     "position": "Software Engineer",
-    "image": "src/img/mentors/photos/Kyrylo_Buchynskyi2.webp"
+    "image": "src/img/mentors/photos/Kyrylo_Buchynskyi.webp"
   },
   {
     "name": "Костянтин Корчминський",
@@ -284,14 +249,14 @@
     "name_eng": "Ivan Pavliuk",
     "experience": "Працюю в IT з 2016 року. Починав як Інтерн в Компанії Sigma Software. Зараз Senior і тімлід теж в Sigma Software.",
     "position": "Senior Mobile Developer",
-    "image": "src/img/mentors/photos/wade.png"
+    "image": "src/img/mentors/photos/Ivan_Pavliuk.webp"
   },
   {
     "name": "Олексій Бурчинський",
     "name_eng": "Oleksii Burchynskyi",
     "experience": "Microsoft Cloud інженер із 10+ роками у комерційному ІТ. Досвід у побудові архітектури, адмініструванні, кібер-захисті та PowerShell автоматизації хмарної (Microsoft 365, Azure) та локальної інфраструктури на базі рішень від Microsoft для малих та великих корпоративних компаній.",
     "position": "Team Lead, Microsoft Cloud Engineer, PowerShell Developer",
-    "image": "src/img/mentors/photos/Oleksii_Burchynskyi"
+    "image": "src/img/mentors/photos/Oleksii_Burchynskyi.webp"
   },
   {
     "name": "Михайло Попенюк",
@@ -305,7 +270,7 @@
     "name_eng": "Artem Skvortsov",
     "experience": "Працював в кількох IT сферах на різних позиціях. Розпочинав роботу в якості QA engineer, мав досвід робити на позиції QA manager де відповідав за процеси якості в межах сукупності проектів, курував кількома командами тестувальників. Також досвід роботи на позиції Scrum Master, наразі працюю в ролі Project Manager та відповідаю за керуванням людськіх ресурсів в межах цілого департаменту. ",
     "position": "Проєктний менеджер ",
-    "image": "src/img/mentors/photos/wade.png"
+    "image": "src/img/mentors/photos/Artem_Skvortsov.webp"
   },
   {
     "name": "Дмитро Альциванович",
@@ -354,7 +319,7 @@
     "name_eng": "Denis Goncharenko",
     "experience": "Моя подорож у розробці програмного забезпечення почалася ще в 2006 році з .NET 1.1. Мені пощастило відчути дивовижний розвиток цієї технологій, рости та розвиватися разом з нею. Тому, розмірковуючи про свій шлях, я вдячний за досвід, який сформував мене як розробника програмного забезпечення. Кожна віха сприяла моєму зростанню та захопленню цією сферою, сферою що і зараз постійно розвивається. Продовжуючи досліджувати нові можливості та роблячи внесок у значущі проекти, мене надихає безмежний потенціал розробки програмного забезпечення для втілення ідей у ​​реальність.",
     "position": "Principal Software Engineer",
-    "image": "src/img/mentors/photos/wade.png"
+    "image": "src/img/mentors/photos/Denis_Goncharenko.webp"
   },
   {
     "name": "Борис Семеренко",
@@ -382,14 +347,14 @@
     "name_eng": "Denys Kovalenko",
     "experience": "Інженер-програміст з більш ніж 5-річним досвідом роботи в галузі розробки програмного забезпечення.\nПрактичний досвід розробки вебдодатків (ECM), а також настільних програм, розширень браузера тощо.\nВеликий досвід роботи з розробки вимог, підготовки концептів додатків, специфікацій, різного роду документації (інструкції користувача та розробника) тощо.\nДосвід керівництва командою з розробки проєктів основної системи ECM, а також досвід інтеграції з іншими проєктами.",
     "position": "Senior Software Engineer",
-    "image": "src/img/mentors/photos/Denys Kovalenko.webp"
+    "image": "src/img/mentors/photos/Denys_Kovalenko.webp"
   },
   {
     "name": "Вячеслав Ковальчук",
     "name_eng": "Viacheslav Kovalchuk",
     "experience": "Наразі працюю у Sigma Software на посаді Senior Software Developer. Працюю розробником вже більше 6 років. Основна мова розробки - PHP, також добре знаю і маю досвід роботи з Javascript. Основна спеціалізація - бекенд розробка для веб-сайтів.",
     "position": "Senior Software Engineer",
-    "image": "src/img/mentors/photos/wade.png"
+    "image": "src/img/mentors/photos/Viacheslav_Kovalchuk.webp"
   },
   {
     "name": "Сергій Лабутін",
@@ -410,7 +375,7 @@
     "name_eng": "Kostiantyn Zelinskyi",
     "experience": "В ІТ з 1997 року. Адміністрування та розробка під Lotus Domino\\Notes. Системне адміністрування під Windows. Адміністрування хмарних сервісів Microsoft",
     "position": "Junior System Administrator",
-    "image": "src/img/mentors/photos/wade.png"
+    "image": "src/img/mentors/photos/Kostiantyn_Zelinskyi.webp"
   },
   {
     "name": "Роман Пятинцев",
@@ -424,7 +389,7 @@
     "name_eng": "Vitalii Melnychuk",
     "experience": "8+ років досвіду в ІТ. Експертиза в JavaScript/Typescript/Node.js. Успішно керував і менторив команди розробки у різних проектах. Досвід в оцінці проектів/завдань. Прийняття технічні рішення для різних задач та проектів.",
     "position": "Team Lead",
-    "image": "src/img/mentors/photos/wade.png"
+    "image": "src/img/mentors/photos/Vitalii_Melnychuk.webp"
   },
   {
     "name": "Ігор Соломахін",
@@ -434,10 +399,31 @@
     "image": "src/img/mentors/photos/wade.png"
   },
   {
-    "name": "Сергій Лисак",
-    "name_eng": "Serghii Lysak",
-    "experience": "15 років досвіду. Починав с тестування ПЗ, дійшов до Senior рівня та перейшов в менеджмент. Наразі займаю позицію Program Manager та керую группою проектів налічуючою 30+ людей. Найбільшу частину часу займаюсь вибудовуванням відносин з людьми в проекті та за його межамі, налаштуванням процесів та організацією поставок ПО. ",
-    "position": "Program Manager",
+    "name": "Мар'яна Дерлиця ",
+    "name_eng": "Mariana Derlytsia",
+    "experience": "В ІТ прийшла в 2019 році після 10 років педагогічної роботи. Відтоді з головою пірнула в дизайн цифрових продуктів, брала участь у розробці сайтів, веб продуктів, мобільних додатків. ",
+    "position": "UI/UX designer",
+    "image": "src/img/mentors/photos/wade.png"
+  },
+  {
+    "name": "Ігор Баранюк",
+    "name_eng": "Ihor Baraniuk",
+    "experience": "В сфері ІТ з 2015 року. Full stack web розробник з досвідом роботи на більш ніж 15-ти комерційних проектах, на деяких з них з посадою тімліда. Також разом з командою інтузіастів працюємо над розвитком власної освітньої платформи Intita, яку активно розвиваємо та підтримуємо.",
+    "position": "Full stack web developer",
+    "image": "src/img/mentors/photos/wade.png"
+  },
+  {
+    "name": "Ярослав Плаксій",
+    "name_eng": "Yaroslav Plaksii",
+    "experience": "Більше 13 років розробки WEB проектів",
+    "position": "Full Stack Web Developer",
+    "image": "src/img/mentors/photos/wade.png"
+  },
+  {
+    "name": "Олег Черній",
+    "name_eng": "Oleg Cherniy",
+    "experience": "Працюю в галузі IT більше 30 років, маю досвід розробки програмних модулів на мовах Perl, PHP, JavaScript, Python. Поглиблено вивчав прикладне застосування моделей машинного навчання, брав участь у розробці багатьох модулів з застосуванням комп'ютерного бачення. Зокрема створив проект з відкритим кодом з розпізнавання номерних знаків Nomeroff Net.",
+    "position": "Викладач",
     "image": "src/img/mentors/photos/wade.png"
   }
 ]
