@@ -111,6 +111,11 @@ body {
 
 #header .header__container .header__logo-link .header__logo {
     width: 116px;
+    transition: all 0.2s;
+}
+
+#header .header__container .header__logo-link .header__logo:hover {
+    transform: scale(1.1);
 }
 
 #header .header__container .header__burger {
@@ -330,10 +335,15 @@ body {
 
 #footer .footer__container .footer__logo-link {}
 
-#footer .footer__container .footer__logo-link .footeer__logo-img {
+#footer .footer__container .footer__logo-link .footer__logo-img {
     width: 116px;
     display: block;
     margin: 0 auto;
+    transition: all 0.2s;
+}
+
+#footer .footer__container .footer__logo-link .footer__logo-img:hover {
+    transform: scale(1.1);
 }
 
 #footer .footer__container .footer__right-block {
