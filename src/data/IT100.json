@@ -392,6 +392,20 @@
     "image": "src/img/mentors/photos/Vitalii_Melnychuk.webp"
   },
   {
+    "name": "Дмитро Сташкевич",
+    "name_eng": "Dmytro Stashkevych",
+    "experience": "Senior Backend dev, 11+ років комерційного досвіду в основному в AdTech індустрії. Спеціалізуюсь на побудові високо-навантажених  інформаційних систем. Основна мова програмування Go (8р), також є комерційний досвід з C# (8р) Java (3р) JavaScript(4р); бази даних: rdbms (MS SQL, MySQL, Postgres) No-SQL (redis, aerospike) Queues(Kafka) Column-based(Clickhouse), OLAP-cubes; net: http, web-sockets, named-pipes.",
+    "position": "Senior Backend Developer",
+    "image": "src/img/mentors/photos/Dmytro_Stashkevych.webp"
+  },
+  {
+    "name": "Олександр Тарасов",
+    "name_eng": "Oleksandr Tarasov",
+    "experience": "Працюю в ІТ з 2018 року . Пройшов шлях від manual QA до automation QA та QA-lead в компанії в якій працюю.",
+    "position": "AQA / QA-Lead",
+    "image": "src/img/mentors/photos/Oleksandr_Tarasov.webp"
+  },
+  {
     "name": "Ігор Соломахін",
     "name_eng": "Ihor Solomakhin",
     "experience": "Маю більш ніж 6 років комерційного досвіду у IT. Займаюсь розробкою web застосунків та сервісів. Основна мова програмування - JavaScript/TypeScript. Досвід як з фронтендом, так і з бекендом.",
@@ -399,7 +413,7 @@
     "image": "src/img/mentors/photos/wade.png"
   },
   {
-    "name": "Мар'яна Дерлиця ",
+    "name": "Мар'яна Дерлиця",
     "name_eng": "Mariana Derlytsia",
     "experience": "В ІТ прийшла в 2019 році після 10 років педагогічної роботи. Відтоді з головою пірнула в дизайн цифрових продуктів, брала участь у розробці сайтів, веб продуктів, мобільних додатків. ",
     "position": "UI/UX designer",
@@ -424,6 +438,20 @@
     "name_eng": "Oleg Cherniy",
     "experience": "Працюю в галузі IT більше 30 років, маю досвід розробки програмних модулів на мовах Perl, PHP, JavaScript, Python. Поглиблено вивчав прикладне застосування моделей машинного навчання, брав участь у розробці багатьох модулів з застосуванням комп'ютерного бачення. Зокрема створив проект з відкритим кодом з розпізнавання номерних знаків Nomeroff Net.",
     "position": "Викладач",
+    "image": "src/img/mentors/photos/wade.png"
+  },
+  {
+    "name": "Уляна Кертуцька",
+    "name_eng": "Uliana Kertutska",
+    "experience": "Я створюю візуальні концепції для експертів 3+років. У графічному дизайні 10+ років. Я - той графічний рекламний дизайнер, якого рекомендують і передають із рук у руки. Замовники називають мене \"фея дизайну))\"",
+    "position": "Директор",
+    "image": "src/img/mentors/photos/wade.png"
+  },
+  {
+    "name": "Олександр Музика",
+    "name_eng": "Oleksandr Muzyka",
+    "experience": "В сфері IT маю досвід, як замовник сервісів (додатків, сайтів). Є власником додатку із доповненою реальністю. Планую створити стартап із використанням штучного інтелекту",
+    "position": "Власник",
     "image": "src/img/mentors/photos/wade.png"
   }
 ]
