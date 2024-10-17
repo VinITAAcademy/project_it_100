@@ -460,9 +460,8 @@ body {
     height: 85px;
 }
 
-#partners .partners__container .partners__wrapper .partners__partner .partners__asta-mobi {
-    width: 90px;
-    height: 90px;
+#partners .partners__container .partners__wrapper .partners__partner .partners__covent-mobi {
+    width: 250px;
 }
 
 #partners .partners__container .partners__wrapper .partners__partner .partners__ria {
@@ -949,9 +948,8 @@ body {
         height: 93px;
     }
 
-    #partners .partners__container .partners__wrapper .partners__partner .partners__asta-mobi {
-        width: 93px;
-        height: 93px;
+    #partners .partners__container .partners__wrapper .partners__partner .partners__covent-mobi {
+        width: 280px;
     }
 
     /* Partners Main End */
