@@ -469,9 +469,16 @@ body {
     height: 93px;
 }
 
-#partners .partners__container .partners__wrapper .partners__partner .partners__auto-ria {
-    width: 114px;
-    height: 93px;
+#partners .partners__container .partners__wrapper .partners__partner .partners__innovinnprom {
+    width: 220px;
+}
+
+#partners .partners__container .partners__wrapper .partners__partner .partners__ukrsibbank {
+    width: 250px;
+}
+
+#partners .partners__container .partners__wrapper .partners__partner .partners__kness {
+    width: 330px;
 }
 
 /* Partners Main End */
